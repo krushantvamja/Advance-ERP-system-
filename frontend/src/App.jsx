@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ElectionPage from './pages/ElectionPage'
 import HealthLeavePage from './pages/HealthLeavePage'
+import FacilityBookingPage from './pages/FacilityBookingPage'
+import ApplicationApprovalPage from './pages/ApplicationApprovalPage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +14,8 @@ function App() {
     <>
       <ElectionPage />
       <HealthLeavePage/>
+      <FacilityBookingPage/>
+      <ApplicationApprovalPage/>
     </>
   )
 }
